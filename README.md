@@ -7,7 +7,7 @@ This repository aims to give more visibility to the projects submitted throughou
 With this repository we aim to facilitate the interactions and collaborations among the  Brainhack School student across the globe. 🌍 🌎 🌏 <br> <br>
 
 
-The students are expected to fill and submit the the project issue template and select the associated tags that represent their project the best. This will allow filter and search the projects easily by peers for future collaborations and discussions 📝 🏷 <br> <br>
+The students are expected to fill and submit the the [project issue template](https://github.com/brainhack-school2023/brainhack_school_projects/issues/new/choose) and select the associated tags that represent their project the best. This will allow filter and search the projects easily by peers for future collaborations and discussions 📝 🏷 <br> <br>
 
 
 ## ⚠ Be Aware!
