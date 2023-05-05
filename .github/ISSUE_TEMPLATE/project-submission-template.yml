@@ -66,7 +66,7 @@ body:
   - type: dropdown
     attributes:
       description: Brainhack School Hub event you registered for. Several options are possible.
-      label: Brainhack Global 2021 Event
+      label: Brainhack School 2023 Hub
       multiple: true
       options:
         - Marburg
@@ -89,10 +89,7 @@ body:
         Try to include all the relevant information to answer the following
         questions.
       value: |
-        - What are you doing, for whom, and why?
-        - What makes your project special and exciting?
-        - How to get started?
-        - Where to find key resources?
+        - Share a short background of your project.
     validations:
       required: true
 
@@ -108,7 +105,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Goals for Brainhack Global
+      label: Goals for the Project
       description: Add a list of milestones or deliverables that you expect to
         achieve during the event.
 
@@ -132,12 +129,6 @@ body:
 
         Try to think of both coding and non-coding skills.
 
-        You can provide predefined skill levels, but it’s better if you give
-        concrete examples of the type of task contributors will be facing.
-
-        Please make sure you create equal opportunities to accommodate the
-        newcomers in your project to learn from each other and share the
-        experiences.
       placeholder: |
         - Python: advanced
         - FSL: basics
@@ -152,14 +143,6 @@ body:
         link to its source.
     validations:
       required: false
-
-  - type: textarea
-    attributes:
-      label: Image
-      description: Provide an image of your project for the Brainhack Global website.
-      value: Leave this text if you don't have an image yet.
-    validations:
-      required: true
 
   # ----------------------------------------------------------------------------
   # LABELS
@@ -304,20 +287,6 @@ body:
         - not_applicable
     validations:
       required: true
-
-  - type: dropdown
-    attributes:
-      label: Git skills
-      multiple: true
-      options:
-        - 0_no_git_skills
-        - 1_commit_push
-        - 2_branches_PRs
-        - 3_continuous_integration
-        - 4_not_applicable
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Anything else?
